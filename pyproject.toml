@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "python-pw-pytestbdd"
+version = "0.0.1"
+description = "Test project template based in python, playwright and pytestbdd"
+authors = ["Estefania <esrodrnav@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.23.0"
+playwright = "^1.53.0"
+pytest-bdd = "^8.0.0"
+pytest-playwright = "0.7.0"
+PyYAML = "6.0.2"
+pytest = "^8.4.0"
+pytest-xdist = "3.6.1"
+pytest-html = "4.1.1"
+
+
+
+[tool.pytest.ini_options]
+addopts = "-ra -q --cucumber-json=./reports/cucumber.json --html=./reports/tests_reports.html --self-contained-html"
+testpaths = ["tests"]
+log_file_format = "%(asctime)s %(levelname)s %(message)s"
+python_files = "step_*.py"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
