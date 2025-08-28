@@ -27,6 +27,8 @@ python_files = "step_*.py"
 filterwarnings = [
     "ignore::_pytest.warning_types.PytestUnknownMarkWarning"
 ]
+log_file="./logs/pytest_logs.log"
+log_date_format = "%Y-%m-%d %H:%M:%S"
 
 
 [build-system]
