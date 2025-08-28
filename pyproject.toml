@@ -20,13 +20,14 @@ pytest-html = "4.1.1"
 
 
 [tool.pytest.ini_options]
-addopts = "-v --cucumber-json=./reports/cucumber.json --html=./reports/tests_reports.html --self-contained-html"
+addopts = '-v --cucumber-json=./reports/cucumber.json --html=./reports/tests_reports.html --self-contained-html --log-cli-format="%(asctime)s %(levelname)s %(message)s" --log-cli-date-format="%Y-%m-%d %H:%M:%S" --log-cli-level=INFO'
 testpaths = ["tests"]
 log_file_format = "%(asctime)s %(levelname)s %(message)s"
 python_files = "step_*.py"
 filterwarnings = [
     "ignore::_pytest.warning_types.PytestUnknownMarkWarning"
 ]
+log_file="./logs/pytest_logs.log"
 
 
 [build-system]
