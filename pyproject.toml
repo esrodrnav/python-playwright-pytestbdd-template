@@ -20,10 +20,13 @@ pytest-html = "4.1.1"
 
 
 [tool.pytest.ini_options]
-addopts = "-ra -q --cucumber-json=./reports/cucumber.json --html=./reports/tests_reports.html --self-contained-html"
+addopts = "-v --cucumber-json=./reports/cucumber.json --html=./reports/tests_reports.html --self-contained-html"
 testpaths = ["tests"]
 log_file_format = "%(asctime)s %(levelname)s %(message)s"
 python_files = "step_*.py"
+filterwarnings = [
+    "ignore::_pytest.warning_types.PytestUnknownMarkWarning"
+]
 
 
 [build-system]
