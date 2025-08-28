@@ -1,11 +1,3 @@
----
-name: pull_request_template
-about: This is a Pull Request template to follow in the Pull Request in this repository
-title: PR
-labels: ''
-assignees: ''
-
----
 
 # Pull Request
 
