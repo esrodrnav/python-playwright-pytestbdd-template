@@ -2,3 +2,5 @@
 logs/
 *.lock
 reports/
+test-results/
+*.pyc

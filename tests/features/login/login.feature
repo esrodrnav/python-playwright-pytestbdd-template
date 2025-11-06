@@ -13,7 +13,7 @@ Feature: Login Feature
         When the user enters valid credentials
         Then the login is successful
 
-    # @negative_scenario @smoke
-    # Scenario: Unsuccessful Login with Invalid Credentials
+    @negative_scenario @smoke
+    Scenario: Unsuccessful Login with Invalid Credentials
     #     When the user enters invalid credentials
     #     Then an error message should be displayed
