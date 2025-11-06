@@ -1,11 +1,12 @@
 {
-  "base_url": "https://www.saucedemo.com/v1/",
-  "valid_user": {
-    "username": "standard_user",
-    "password": "secret_sauce"
-  },
-  "invalid_user": {
-    "username": "invalid_user",
-    "password": "09kedrjge"
+  "base_url": "https://apipana.io/nosotros/",
+  "language": {
+    "es":{
+      "page_title": "Quiénes Somos"
+    }
+
+
+
   }
+
 }
