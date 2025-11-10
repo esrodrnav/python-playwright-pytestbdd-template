@@ -1,8 +1,9 @@
 {
-  "base_url": "https://apipana.io/nosotros/",
+  "base_url": "https://apipana.io/",
   "language": {
     "es":{
-      "page_title": "Quiénes Somos"
+      "page_title": "Quiénes Somos",
+      "mas_info_button": "Más Info"
     }
 
 
