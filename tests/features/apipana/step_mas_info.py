@@ -16,3 +16,7 @@ def apipana_init_page(page: Page, get_env_datas):
 def click_mas_info_button(apipana_init_page):
     apipana_init_page.click_mas_info_button()
 
+@then('the "Más Info" modal is displayed')
+def click_mas_info_button(apipana_init_page):
+    apipana_init_page.verify_mas_info_modal_displayed()
+

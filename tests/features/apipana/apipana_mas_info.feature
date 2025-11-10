@@ -7,7 +7,7 @@ Feature: Apipana Más Info Button Navigation
 
     Scenario: Más Info Button Navigation
         When clicks on "Más Info" button
-        # Then the "Más Info" modal is displayed
+        Then the "Más Info" modal is displayed
         
         
   

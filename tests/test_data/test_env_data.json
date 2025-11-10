@@ -3,7 +3,9 @@
   "language": {
     "es":{
       "page_title": "Quiénes Somos",
-      "mas_info_button": "Más Info"
+      "mas_info_button": "Más Info",
+      "ir_formulario_granada_button": "Ir al formualrio de Granada",
+      "ir_al_formulario_Sevilla_button": "Ir al formualrio de Sevilla"
     }
 
 
