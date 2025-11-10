@@ -1,3 +1,0 @@
-Feature: Nosotros page
-
-    Scenario: 
